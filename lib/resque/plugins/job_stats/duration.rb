@@ -29,7 +29,7 @@ module Resque
         end
 
         def durations_recorded
-          @durations_recorded || 100
+          @durations_recorded || 500
         end
 
         def job_rolling_avg
